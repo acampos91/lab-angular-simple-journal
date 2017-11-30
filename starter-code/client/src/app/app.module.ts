@@ -6,12 +6,14 @@ import { JournalService} from '../services/journal.service';
 import { AppComponent } from './app.component';
 import { EntryListComponent } from './entry-list/entry-list.component';
 import { RouterModule } from "@angular/router";
-import { routes } from "./routes"
+import { routes } from "./routes";
+import { JournalDetailsComponent } from './journal-details/journal-details.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    EntryListComponent
+    EntryListComponent,
+    JournalDetailsComponent
   ],
   imports: [
     BrowserModule,
